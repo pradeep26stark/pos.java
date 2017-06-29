@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Compare
+{
+public static void main(String args[])
+{
+int no;
+Scanner a = new Scanner(System.in);
+no = a.nextInt();
+if(no < 0)
+{
+System.out.println("Negative");
+}
+else if(no > 0)
+{
+System.out.println("Positive");
+}
+else
+{
+System.out.println("Zero");
+}
+}
+}
